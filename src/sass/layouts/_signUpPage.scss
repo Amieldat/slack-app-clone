@@ -1,0 +1,61 @@
+.sign-up-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../assets/background-slack.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  
+  .sign-up-wrapper {
+    background-color:rgba(2, 98, 107, 0.6);
+    // border: 3px solid black;
+    height: 300px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+
+    .sign-up-form {
+      width: 200px;
+      height: 190px;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+
+        .input-field {
+          border-radius: 10px;
+          height: 25px;
+          width: 200px;
+        }
+
+        .sing-up-btn {
+          margin-top: 10px;
+          width: 70px;
+          height: 23px;
+          border-radius: 10px;
+        }
+    }
+  }
+
+  .sign-in-portal {
+    width: 400px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .sign-in-link {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
